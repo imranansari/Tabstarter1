@@ -1,0 +1,261 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCCA13B0147F7E4500E26F76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCCA13AF147F7E4500E26F76 /* UIKit.framework */; };
+		CCCA13B2147F7E4500E26F76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCCA13B1147F7E4500E26F76 /* Foundation.framework */; };
+		CCCA13B4147F7E4500E26F76 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCCA13B3147F7E4500E26F76 /* CoreGraphics.framework */; };
+		CCCA13BA147F7E4500E26F76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCCA13B8147F7E4500E26F76 /* InfoPlist.strings */; };
+		CCCA13BC147F7E4500E26F76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCA13BB147F7E4500E26F76 /* main.m */; };
+		CCCA13C0147F7E4500E26F76 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCA13BF147F7E4500E26F76 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CCCA13AB147F7E4500E26F76 /* Tabstarter1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tabstarter1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCCA13AF147F7E4500E26F76 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CCCA13B1147F7E4500E26F76 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CCCA13B3147F7E4500E26F76 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CCCA13B7147F7E4500E26F76 /* Tabstarter1-Info.plist */ = {isa = PBXFileReference; path = "Tabstarter1-Info.plist"; sourceTree = "<group>"; };
+		CCCA13B9147F7E4500E26F76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCCA13BB147F7E4500E26F76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCCA13BD147F7E4500E26F76 /* Tabstarter1-Prefix.pch */ = {isa = PBXFileReference; path = "Tabstarter1-Prefix.pch"; sourceTree = "<group>"; };
+		CCCA13BE147F7E4500E26F76 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		CCCA13BF147F7E4500E26F76 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCCA13A8147F7E4500E26F76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCCA13B0147F7E4500E26F76 /* UIKit.framework in Frameworks */,
+				CCCA13B2147F7E4500E26F76 /* Foundation.framework in Frameworks */,
+				CCCA13B4147F7E4500E26F76 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCCA13A0147F7E4500E26F76 = {
+			isa = PBXGroup;
+			children = (
+				CCCA13B5147F7E4500E26F76 /* Tabstarter1 */,
+				CCCA13AE147F7E4500E26F76 /* Frameworks */,
+				CCCA13AC147F7E4500E26F76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCCA13AC147F7E4500E26F76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCCA13AB147F7E4500E26F76 /* Tabstarter1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCCA13AE147F7E4500E26F76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCCA13AF147F7E4500E26F76 /* UIKit.framework */,
+				CCCA13B1147F7E4500E26F76 /* Foundation.framework */,
+				CCCA13B3147F7E4500E26F76 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCCA13B5147F7E4500E26F76 /* Tabstarter1 */ = {
+			isa = PBXGroup;
+			children = (
+				CCCA13BE147F7E4500E26F76 /* AppDelegate.h */,
+				CCCA13BF147F7E4500E26F76 /* AppDelegate.m */,
+				CCCA13B6147F7E4500E26F76 /* Supporting Files */,
+			);
+			path = Tabstarter1;
+			sourceTree = "<group>";
+		};
+		CCCA13B6147F7E4500E26F76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCCA13B7147F7E4500E26F76 /* Tabstarter1-Info.plist */,
+				CCCA13B8147F7E4500E26F76 /* InfoPlist.strings */,
+				CCCA13BB147F7E4500E26F76 /* main.m */,
+				CCCA13BD147F7E4500E26F76 /* Tabstarter1-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCCA13AA147F7E4500E26F76 /* Tabstarter1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCCA13C3147F7E4500E26F76 /* Build configuration list for PBXNativeTarget "Tabstarter1" */;
+			buildPhases = (
+				CCCA13A7147F7E4500E26F76 /* Sources */,
+				CCCA13A8147F7E4500E26F76 /* Frameworks */,
+				CCCA13A9147F7E4500E26F76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tabstarter1;
+			productName = Tabstarter1;
+			productReference = CCCA13AB147F7E4500E26F76 /* Tabstarter1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCCA13A2147F7E4500E26F76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = CCCA13A5147F7E4500E26F76 /* Build configuration list for PBXProject "Tabstarter1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CCCA13A0147F7E4500E26F76;
+			productRefGroup = CCCA13AC147F7E4500E26F76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCCA13AA147F7E4500E26F76 /* Tabstarter1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCCA13A9147F7E4500E26F76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCCA13BA147F7E4500E26F76 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCCA13A7147F7E4500E26F76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCCA13BC147F7E4500E26F76 /* main.m in Sources */,
+				CCCA13C0147F7E4500E26F76 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CCCA13B8147F7E4500E26F76 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCCA13B9147F7E4500E26F76 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCCA13C1147F7E4500E26F76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CCCA13C2147F7E4500E26F76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCCA13C4147F7E4500E26F76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tabstarter1/Tabstarter1-Prefix.pch";
+				INFOPLIST_FILE = "Tabstarter1/Tabstarter1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CCCA13C5147F7E4500E26F76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tabstarter1/Tabstarter1-Prefix.pch";
+				INFOPLIST_FILE = "Tabstarter1/Tabstarter1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCCA13A5147F7E4500E26F76 /* Build configuration list for PBXProject "Tabstarter1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCCA13C1147F7E4500E26F76 /* Debug */,
+				CCCA13C2147F7E4500E26F76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCCA13C3147F7E4500E26F76 /* Build configuration list for PBXNativeTarget "Tabstarter1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCCA13C4147F7E4500E26F76 /* Debug */,
+				CCCA13C5147F7E4500E26F76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCCA13A2147F7E4500E26F76 /* Project object */;
+}
