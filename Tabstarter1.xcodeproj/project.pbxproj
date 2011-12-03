@@ -13,6 +13,9 @@
 		CCCA13BA147F7E4500E26F76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCCA13B8147F7E4500E26F76 /* InfoPlist.strings */; };
 		CCCA13BC147F7E4500E26F76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCA13BB147F7E4500E26F76 /* main.m */; };
 		CCCA13C0147F7E4500E26F76 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCA13BF147F7E4500E26F76 /* AppDelegate.m */; };
+		CCCA13C8147F802400E26F76 /* CurrentTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCA13C7147F802400E26F76 /* CurrentTimeViewController.m */; };
+		CCCA13CF147F84CF00E26F76 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCA13CE147F84CF00E26F76 /* WebViewJavascriptBridge.m */; };
+		CCCA13D214803B2B00E26F76 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCA13D114803B2B00E26F76 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +23,18 @@
 		CCCA13AF147F7E4500E26F76 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CCCA13B1147F7E4500E26F76 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CCCA13B3147F7E4500E26F76 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		CCCA13B7147F7E4500E26F76 /* Tabstarter1-Info.plist */ = {isa = PBXFileReference; path = "Tabstarter1-Info.plist"; sourceTree = "<group>"; };
+		CCCA13B7147F7E4500E26F76 /* Tabstarter1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tabstarter1-Info.plist"; sourceTree = "<group>"; };
 		CCCA13B9147F7E4500E26F76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CCCA13BB147F7E4500E26F76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CCCA13BD147F7E4500E26F76 /* Tabstarter1-Prefix.pch */ = {isa = PBXFileReference; path = "Tabstarter1-Prefix.pch"; sourceTree = "<group>"; };
-		CCCA13BE147F7E4500E26F76 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		CCCA13BD147F7E4500E26F76 /* Tabstarter1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tabstarter1-Prefix.pch"; sourceTree = "<group>"; };
+		CCCA13BE147F7E4500E26F76 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CCCA13BF147F7E4500E26F76 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CCCA13C6147F802400E26F76 /* CurrentTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentTimeViewController.h; sourceTree = "<group>"; };
+		CCCA13C7147F802400E26F76 /* CurrentTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentTimeViewController.m; sourceTree = "<group>"; };
+		CCCA13CD147F84CF00E26F76 /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		CCCA13CE147F84CF00E26F76 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		CCCA13D014803B2B00E26F76 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		CCCA13D114803B2B00E26F76 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +84,12 @@
 				CCCA13BE147F7E4500E26F76 /* AppDelegate.h */,
 				CCCA13BF147F7E4500E26F76 /* AppDelegate.m */,
 				CCCA13B6147F7E4500E26F76 /* Supporting Files */,
+				CCCA13C6147F802400E26F76 /* CurrentTimeViewController.h */,
+				CCCA13C7147F802400E26F76 /* CurrentTimeViewController.m */,
+				CCCA13CD147F84CF00E26F76 /* WebViewJavascriptBridge.h */,
+				CCCA13CE147F84CF00E26F76 /* WebViewJavascriptBridge.m */,
+				CCCA13D014803B2B00E26F76 /* SecondViewController.h */,
+				CCCA13D114803B2B00E26F76 /* SecondViewController.m */,
 			);
 			path = Tabstarter1;
 			sourceTree = "<group>";
@@ -153,6 +168,9 @@
 			files = (
 				CCCA13BC147F7E4500E26F76 /* main.m in Sources */,
 				CCCA13C0147F7E4500E26F76 /* AppDelegate.m in Sources */,
+				CCCA13C8147F802400E26F76 /* CurrentTimeViewController.m in Sources */,
+				CCCA13CF147F84CF00E26F76 /* WebViewJavascriptBridge.m in Sources */,
+				CCCA13D214803B2B00E26F76 /* SecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

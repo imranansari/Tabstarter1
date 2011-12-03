@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "CurrentTimeViewController.h"
+#import "SecondViewController.h"
 
 @implementation AppDelegate
 
@@ -23,7 +25,33 @@
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+ 
+    
+    // Create the tabBarController
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    
+    // Create two view controllers
+    UIViewController *vc1 = [[CurrentTimeViewController alloc] init];
+    //UIViewController *vc2 = [[SecondViewController alloc] init];
+    
+    // Make an array containing the two view controllers
+    NSArray *viewControllers = [NSArray arrayWithObjects:vc1, nil];
+    
+    // The viewControllers array retains vc1 and vc2, we can release
+    // our ownership of them in this method
+    [vc1 release];
+    //[vc2 release];
+    
+    // Attach them to the tab bar controller
+    [tabBarController setViewControllers:viewControllers];
+    
+    // Put the tabBarController's view on the window
+    [[self window] setRootViewController:tabBarController];
+    [tabBarController release];
+    
+    // Show the window
+    [[self window] makeKeyAndVisible];
+    
     return YES;
 }
 
